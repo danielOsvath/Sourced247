@@ -47,7 +47,7 @@ class DayView: UITableViewController {
         self.stories = []
         self.dayStories = []
         
-        let dataURL = URL(string: "http://sourcedweb.azurewebsites.net/appdata.php")!
+        let dataURL = URL(string: "http://sourcedweb.azurewebsites.net/PHP/appdata.php")!
         let c = Haneke.Shared.JSONCache
         c.removeAll()
         
